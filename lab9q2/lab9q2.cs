@@ -8,10 +8,10 @@ namespace lab9
         {
             int[] output = new int[1000];
 
-            for (int i = 0; i < 999; i=i+3)
+            for (int i = 0; i < 999; i=i+3) //loops
             {
                 
-                output[i] = i;
+                output[i] = i;     //outputs every 3rd array
                 Console.WriteLine(i);
 
             }

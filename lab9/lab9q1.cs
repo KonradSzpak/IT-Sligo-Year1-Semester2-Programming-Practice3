@@ -8,9 +8,9 @@ namespace lab9
         {
             int[] output = new int[1000];
 
-            for (int i = 0; i < 999; i++)
+            for (int i = 0; i < 999; i++) //loops
             {
-                output[i] = i;
+                output[i] = i;   //outpits array 1 by 1
                 Console.WriteLine(i);
             }
         }
