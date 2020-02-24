@@ -7,19 +7,26 @@ namespace lab9
         static void Main(string[] args)
         {
             string letters;
+
             Console.WriteLine("Enter letters");
             letters = Console.ReadLine();
+            ReconstructingArray(letters);
+        }
 
+
+
+
+
+        static string ReconstructingArray(string letters)
+        {
+            string letters2 ;
+                
             for (int i = 0; i < letters.Length; i++)
-
-            if (letters[i] == 'a') //i in this case stands for the [1st] character i++ then [2nd] character
             {
-
+                letters2[i] = letters[i];
             }
-
-
-
-
+            return letters2;
+            
         }
     }
 }
